@@ -7,5 +7,5 @@ jobs:
     - uses: actions/checkout@v2 
     
     - name: run a message
-     run: echo 'workflow executed successfully'
+      run: echo 'workflow executed successfully'
     

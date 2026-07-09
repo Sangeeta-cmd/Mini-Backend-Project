@@ -1,0 +1,9 @@
+name: my-first-workflow
+on: [push]
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    -name: check out the repository
+    -uses: action/checkout@v4
+     run: echo " workflow executed successfully"
+    
